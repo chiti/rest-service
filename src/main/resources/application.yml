@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    schema: classpath:data/hsqldb/schema.sql
+    data: classpath:data/hsqldb/data.sql
+  jpa:
+    hibernate:
+      ddl-auto: none
